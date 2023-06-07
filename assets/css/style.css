@@ -53,7 +53,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #ba40b46c;
+  background-color: #610e5d6c;
   box-shadow: 0 1px 4px #4e084b6c;
 }
 section {
@@ -67,7 +67,7 @@ section {
   text-align: center;
 }
 .heading span {
-  color: #ba40b46c;
+  color: #610e5d6c;
 }
 header .logo {
   font-size: 1.9rem;
@@ -213,7 +213,7 @@ header .navbar ul li a:hover {
 .home2 .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ba40b46c;
+  color: #610e5d6c;
 }
 .home2 .content p {
   font-size: 2.5rem;
@@ -223,7 +223,7 @@ header .navbar ul li a:hover {
 }
 .home2 .content p span {
   font-size: 2.5rem;
-  color: #ba40b46c;
+  color: #610e5d6c;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -248,7 +248,7 @@ header .navbar ul li a:hover {
   display: inline-block;
   line-height: 44px;
   color: whitesmoke;
-  background-color: #ba40b46c;
+  background-color: #610e5d6c;
   width: 42px;
   height: 42px;
   text-align: center;
@@ -366,7 +366,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background-color:#ba40b46c ;
+  background-color:#610e5d6c ;
   box-shadow: 0px 5px 10px #4e084b6c;
   font-family: "Nunito", sans-serif;
 }
@@ -387,7 +387,7 @@ header .navbar ul li a:hover {
   color: #fff;
 }
 .resumebtn #resume-button-2:hover {
-  background: #4e084b6c;
+  background: #2a02286c;
   color: #070707;
 }
 .resumebtn .btn:hover i {
@@ -426,7 +426,7 @@ header .navbar ul li a:hover {
   color: #fff;
 }
 .skills2 .heading span {
-  color: #ba40b46c;
+  color: #610e5d6c;
 }
 .skills2 .container {
   /* background: #ba40b46c; */
@@ -455,7 +455,7 @@ header .navbar ul li a:hover {
 }
 .skills2 .container .bar:hover {
   box-shadow: 0 8px 10px #4e084b6c !important;
-  background-color: #ba40b46c !important;
+  background-color: #610e5d6c !important;
 }
 .skills2 .container .bar .info {
   display: flex;
@@ -538,7 +538,7 @@ header .navbar ul li a:hover {
   margin-bottom: 30px;
 }
 .work .heading span {
-  color: #ba40b46c ;
+  color: #610e5d6c ;
 }
 .work .box-container {
   display: flex;
@@ -579,7 +579,7 @@ header .navbar ul li a:hover {
   height: 3.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ba40b46c;
+  background: #610e5d6c;
   color: white;
 }
 .work .box-container .box .content .tag h3 {
@@ -773,7 +773,7 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #ba40b46c ;
+  background: #610e5d6c ;
   box-shadow: #4e084b6c;
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
@@ -846,7 +846,7 @@ form .button-area {
 }
  .contact2 .box-container .box p i {
   padding-right: 1rem;
-  color: #ba40b46c ;
+  color: #610e5d6c ;
 }
  .contact2 .box-container .box a {
   font-size: 1.5rem;
