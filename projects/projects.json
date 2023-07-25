@@ -33,7 +33,7 @@
         "name": "Heal Hub",
         "desc": "Heal Hub is a comprehensive health and wellness website that aims to provide users with a wide range of resources and information to support their physical and mental well-being. .",
         "image": "heal",
-        "stacks":"js,html,css,express,mongo,redis,nodejs,postman,git,netlify,vscode",
+        "stacks":"js,html,css,express,mongo,redis,nodejs,netlify,vscode",
         "links": {
           "view": "https://rad-squirrel-f6507f.netlify.app",
           "code": "https://github.com/rocklee04/Heal-Hub"

@@ -53,7 +53,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #610e5d6c;
+  background-color: #c7c5c7df;
   box-shadow: 0 1px 4px #4e084b6c;
 }
 section {
@@ -532,128 +532,131 @@ header .navbar ul li a:hover {
   /* background: #010124; */
   /* background: linear-gradient(to bottom, #000031, #00002c); */
 
+/* Updated CSS */
+
+/* Updated CSS */
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
 .work h2 {
   color: #fff;
   padding: 1rem;
   margin-bottom: 30px;
 }
+
 .work .heading span {
-  color: #610e5d6c ;
+  color: #610e5d6c;
 }
+
 .work .box-container {
   display: flex;
-  flex-direction: column;
-  width: 50%;
   flex-wrap: wrap;
-  gap: 5.5rem;
-  margin: auto;
+  gap: 2rem;
+  justify-content: center; /* Centering the cards horizontally */
 }
+
 .work .box-container .box {
-  flex: 39rem;
+  width: 65%; /* Adjust the width of the card as per your preference */
   height: auto;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  position: relative;
   overflow: hidden;
+  display: flex;
 }
+
 .work .box-container .box img {
-  /* height: auto; */
-  width: 100%;
-  /* object-fit:initial; */
+  width: 50%; /* Set the image width to take half of the card */
+  height: auto;
+  object-fit: cover; /* To prevent image distortion */
+  transition: transform 0.3s ease; /* Adding a smooth transition on hover */
+  padding: 20px;
+  background-color: white;
 }
+
 .work .box-container .box .content {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  /* top: 85%; */
-  left: 0;
+  width: 50%; /* Set the content width to take half of the card */
+  padding: 1rem;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
 }
+
 .work .box-container .box .content .tag {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 3.5rem;
   width: 100%;
-  padding-left: 1rem;
+  padding: 1rem 0;
   background: #610e5d6c;
   color: white;
+  text-align: center;
 }
+
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-.work .box-container .box:hover .content {
-  top: 50%;
+
+.work .box-container .box:hover img {
+  transform: scale(1.1); /* Adding a scale effect on hover */
 }
+
 .work .desc {
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
-  /* display: flex;
-  flex-direction: column; */
-  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
 }
+
 .work .desc p {
   font-size: 1.5rem;
 }
+
 .work .desc .btns {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap; /* Wrap the buttons to prevent overlapping */
+  gap: 1.5rem; /* Add some gap between the buttons */
+  margin-top: 1rem;
 }
-.work .desc .btns #tech2 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+
 .work .desc .btns .btn {
   line-height: 0;
   display: inline;
-  padding: 8px 8px 8px 8px;
+  padding: 8px 16px;
   border-radius: 0.5rem;
   font-size: 1.5rem;
   color: #fff;
   background: #4e084b6c;
-  margin-right: 2rem;
+  transition: background 0.3s ease; /* Adding a smooth background transition on hover */
 }
+
 .work .desc .btns .btn:hover {
-  background: #4e084b6c;
+  background: #4e084b; /* Adjust the color on hover as per your preference */
 }
 
-/* *********************** */
+/* Media Queries (Responsive adjustments) */
+@media screen and (max-width: 768px) {
+  .work .box-container .box {
+    width: 100%; /* Full width for cards on smaller screens */
+  }
+}
 
+@media screen and (max-width: 480px) {
+  .work .heading h2 {
+    font-size: 1.5rem; /* Adjust the heading font size for smaller screens */
+  }
+  .work .box-container .box {
+    flex-direction: column; /* Stack the content vertically on smaller screens */
+  }
+  .work .box-container .box img {
+    width: 100%; /* Adjust the image width to take full width on smaller screens */
+  }
+  .work .box-container .box .content {
+    width: 100%; /* Adjust the content width to take full width on smaller screens */
+  }
+}
 
-@media only screen and ( max-width : 620px) and ( min-width : 10px) {
-.work .box-container .box {
-    flex: 40rem;
-}
-.work .desc .btns {
-    flex-direction: column;
-    gap: 10px;
-}
-.desc .pp{
-  display: none !important;
-}
-.desc{
-  font-size: 15px !important;
-}
-}
-@media only screen and ( max-width : 800px) and ( min-width : 620px){
-    .work .box-container .box {
-        flex: 40rem;
-    }
-    .work .desc .btns {
-        flex-direction: column;
-        gap: 10px;
-    }  
-
-}
-   @media only screen and ( max-width : 1000px) and ( min-width : 800px){
-
-}
 
 /* work section ends */
 
@@ -1014,8 +1017,8 @@ form .button-area {
 
   @media only screen and ( max-width : 620px) and ( min-width : 10px) {
 
-#calendwer {
-  display: none;
+#calendwer img{
+  width: 400px;
 }
 
 #contri{
@@ -1023,7 +1026,7 @@ form .button-area {
 }
 
 #contri img{
-  width: auto;
+  width: 400px;
 
 }
 #contri2 img{
