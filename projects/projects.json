@@ -28,5 +28,15 @@
           "view": "https://rad-gecko-edeb04.netlify.app/",
           "code": "https://github.com/rocklee04/pink-cactus-3310"
         }    
+      },
+      {
+        "name": "Smart Buy",
+        "desc": "Smart Buy is your premier online shopping destination, offering a wide array of high-quality products across various categories.With competitive prices, exceptional customer service, and frequent promotions.",
+        "image": "smart",
+        "stacks":"js,html,css,express,mongo,redis,nodejs,postman,git,netlify,vscode",
+        "links": {
+          "view": "https://honest-wing-5796.vercel.app",
+          "code": "https://github.com/rocklee04/Smart-Buy"
+        } 
       }
 ]    
