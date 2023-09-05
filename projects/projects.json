@@ -20,6 +20,16 @@
         }    
       },
       {
+        "name": "Amazon Clone",
+        "desc": "Discover premium products in diverse categories at Smart Buy, where competitive prices and top-notch service redefine your shopping experience. ",
+        "image": "amazon",
+        "stacks":"js,html,css,express,mongo,redis,nodejs,netlify,vscode",
+        "links": {
+          "view": "https://deluxe-daifuku-1dda8e.netlify.app/",
+          "code": "https://github.com/rocklee04/Smart-Buy"
+        }    
+      },
+      {
         "name": "Apple Clone",
         "desc": "A clone of Apple website Home page,where users can find world class range of apple products ",
         "image": "apple",
