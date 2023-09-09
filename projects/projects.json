@@ -9,16 +9,6 @@
         "code": "https://github.com/rocklee04/abrupt-kitty-9277"
       }    
     },
-    {
-        "name": "Charlie Tyrwhitt Clone",
-        "desc": "A clothing website where users can buy men's formal attires.",
-        "image": "charlie",
-        "stacks":"js,html,css,git,netlify,vscode",
-        "links": {
-          "view": "https://astonishing-blancmange-e5e07e.netlify.app/",
-          "code": "https://github.com/rocklee04/habitual-oatmeal-3228"
-        }    
-      },
       {
         "name": "Amazon Clone",
         "desc": "Discover premium products in diverse categories at Smart Buy, where competitive prices and top-notch service redefine your shopping experience. ",
@@ -29,6 +19,16 @@
           "code": "https://github.com/rocklee04/Smart-Buy"
         }    
       },
+      {
+        "name": "Charlie Tyrwhitt Clone",
+        "desc": "A clothing website where users can buy men's formal attires.",
+        "image": "charlie",
+        "stacks":"js,html,css,git,netlify,vscode",
+        "links": {
+          "view": "https://astonishing-blancmange-e5e07e.netlify.app/",
+          "code": "https://github.com/rocklee04/habitual-oatmeal-3228"
+        }    
+      },  
       {
         "name": "Apple Clone",
         "desc": "A clone of Apple website Home page,where users can find world class range of apple products ",
