@@ -16,6 +16,10 @@
         "icon": "nodejs.png"
     },
     {
+        "name": "React",
+        "icon": "react.png"
+    },
+    {
         "name": "DSA",
         "icon": "dsa.png"
     },
