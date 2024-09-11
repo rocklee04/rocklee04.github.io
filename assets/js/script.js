@@ -152,11 +152,11 @@ const resume1 = document.getElementById("resume-button-1")
 const resume2 = document.getElementById("resume-button-2")
 
 resume1.addEventListener('click', () => {
-    window.open("https://drive.google.com/file/d/1Yf41S79N3i6_lpGCEFaiVXgrF-FpGRma/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1X_TIlw0k7hADkwpWF5sLE53wAvVQjEH5/view?usp=sharing", "_blank");
 })
 
 resume2.addEventListener('click', () => {
-    window.open("https://drive.google.com/file/d/1Yf41S79N3i6_lpGCEFaiVXgrF-FpGRma/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1X_TIlw0k7hADkwpWF5sLE53wAvVQjEH5/view?usp=sharing", "_blank");
 })
 
 
